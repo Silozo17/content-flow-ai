@@ -7,7 +7,8 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "server": "node src/server.js",
-    "server:dev": "nodemon src/server.js"
+    "server:dev": "nodemon src/server.js",
+    "build": "echo 'Nothing to build'"
   },
   "keywords": ["contentflow", "ai", "social-media", "saas", "backend"],
   "author": "ContentFlow AI Team",
