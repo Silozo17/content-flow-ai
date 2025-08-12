@@ -1,0 +1,44 @@
+{
+  "name": "contentflow-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for ContentFlow AI - Modern SaaS platform for content creation and social strategy",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "server": "node src/server.js",
+    "server:dev": "nodemon src/server.js"
+  },
+  "keywords": ["contentflow", "ai", "social-media", "saas", "backend"],
+  "author": "ContentFlow AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.4.5",
+    "@supabase/supabase-js": "^2.38.4",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "multer": "^1.4.5-lts.1",
+    "axios": "^1.6.2",
+    "openai": "^4.20.1",
+    "@sendgrid/mail": "^7.7.0",
+    "node-cron": "^3.0.3",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@types/node": "^20.10.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
