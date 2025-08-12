@@ -1,22 +1,19 @@
 [build]
-  command   = "npm run build"
-  publish   = "dist"
+  command = "npm run build"
+  publish = "."
   functions = "netlify/functions"
-
-[build.environment]
-  NODE_VERSION = "20"
 
 [[redirects]]
   from = "/health"
-  to   = "/.netlify/functions/health"
+  to = "/.netlify/functions/health"
   status = 200
 
 [[redirects]]
   from = "/api/test"
-  to   = "/.netlify/functions/api-test"
+  to = "/.netlify/functions/api-test"
   status = 200
 
 [[redirects]]
   from = "/api/test/connection"
-  to   = "/.netlify/functions/api-test-connection"
+  to = "/.netlify/functions/api-test-connection"
   status = 200
